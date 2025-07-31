@@ -8,9 +8,9 @@
 
 
 
-## Dependancies ----
+## Dependencies ----
 
-# load libraries
+# load packages
 
 library(foreign)
 library(rlandfire)
@@ -18,8 +18,8 @@ library(scales)
 library(sf)
 library(terra)
 library(tidyverse)
-library(tools)
-library(varhandle)
+#library(tools) don't think we need
+#library(varhandle) don't think we need
 
 #  read shape
 shp <- st_read("inputs/st_croix.shp") %>% # small tester area in MN
